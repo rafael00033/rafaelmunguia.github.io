@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin: 0; padding: 0;}
+@font-face {font-family: Samsung1; src: url("../Src/samsungsharpsans-medium.otf") }
+@font-face {font-family: SamsungBlk; src:url("../Src/samsungsharpsans-bold.otf")}
+@font-face {font-family: SamsungItal; src:url("../Src/samsungsharpsans.otf")}
+
+body{background-color: white; font-family: Samsung1; text-align: center; color:black; }
+
+.wrapper p {text-align: justify; }
+
+.header {width: 100%; height: 135px; background-color: white; background-size: cover; margin: 0 auto; }
+
+.menu {width: 100%; height: 80px; color: black; margin: 0 auto; }
+
+.menu ul {list-style-type: none; width: 100%; }
+
+.menu li {width: 25%; background-color: white; height: 70px; float: left; line-height: 70px; }
+
+.menu li:hover {background-color: black;  }
+
+.menu a {text-decoration: none; color: black; }
+
+.menu a:hover {text-decoration: none; color: white; }
+
+.wrapper {width: 85%; background-color: white; margin: 0 auto; }
+
+.footer {width: 100%; height: 50px; line-height: 50px; background-color:white; margin: 0 auto; font-size: 12px; color: black; }
+
+/*Retícula*/
+
+.col01{width: 10%;}
+.col02{width: 20%;}
+.col03{width: 30%;}
+.col04{width: 40%;}
+.col05{width: 50%;}
+.col06{width: 60%;}
+.col07{width: 70%;}
+.col08{width: 80%;}
+.col09{width: 90%;}
+.col10{width: 100%;}
+
+.section {padding: 20px; box-sizing: border-box; float: left; }
+
+.clear {clear: both; }
+
+h2 {font-family: SamsungBlk; color:darkblue; text-align: left; margin-top: 10px; margin-bottom: 10px;  }
+
+txt {text-align: center; font-family: SamsungItal;}
+
+/* Transformaciones*/
+
+.uno:hover {transform: scale(1.2); transition: 5s ease-out; }
+
+h1 {font-family: SamsungBlk; color: darkblue; text-align: center; }
+
+
+
+
